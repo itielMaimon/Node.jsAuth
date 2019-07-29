@@ -1,0 +1,27 @@
+{
+  "name": "node.jsauth",
+  "version": "1.0.0",
+  "description": "A Node.js API Authentication With JWT",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itielMaimon/Node.jsAuth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itielMaimon/Node.jsAuth/issues"
+  },
+  "homepage": "https://github.com/itielMaimon/Node.jsAuth#readme",
+  "dependencies": {
+    "@hapi/joi": "^15.1.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.7",
+    "nodemon": "^1.19.1"
+  }
+}
